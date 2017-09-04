@@ -8,7 +8,7 @@ public class InchToMetr {
         double inch, metr;
         int counter;
         // Первоначально в счетчике строк устанавливается нулевое значение
-        counter = 0;
+        counter = 1;
         for (inch = 1; inch <= 144; inch ++){
             metr = inch / 39.37; // преобразование в метры
             System.out.println(inch + " inch is " + metr + " metr.");
